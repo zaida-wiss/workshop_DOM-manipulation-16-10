@@ -1,0 +1,19 @@
+body {
+            font-family: sans-serif;
+            padding: 20px;
+            background-color: #f9fafb;
+        }
+        section {
+            margin-top: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: none;
+            background-color: #e2e8f0;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cbd5e1;
+        }
