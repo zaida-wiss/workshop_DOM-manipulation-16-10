@@ -1,25 +1,20 @@
-const section = document.getElementById("manipulation")
+const section = document.getElementById("manipulation");
 
-const list = document.createElement("ul")
-const li1 = document.createElement("li")
-const li2 = document.createElement("li")
-const li3 = document.createElement("li")
-const li4 = document.createElement("li")
-const li5 = document.createElement("li")
+const list = document.createElement("ul");
+section.appendChild(list);
 
-section.appendChild(list)
+const li1 = document.createElement("li");
+li1.textContent = "druckit kaffe";
+list.appendChild(li1);
 
-li1.textContent = "druckit kaffe"
-list.appendChild(li1)
+const li2 = document.createElement("li");
+li2.textContent = "kodat";
+list.appendChild(li2);
 
-li2.textContent = "kodat"
-list.appendChild(li2)
+const li3 = document.createElement("li");
+li3.textContent = "pausat";
+list.appendChild(li3);
 
-li3.textContent = "pausat"
-list.appendChild(li3)
-
-li4.textContent = "lärt mig"
-list.appendChild(li4)
-
-li5.textContent = "testat övningar"
-list.appendChild(li5)
+const li4 = document.createElement("li");
+li4.textContent = "lärt mig";
+list.appendChild(li4);
